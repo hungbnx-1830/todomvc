@@ -1,0 +1,23 @@
+.todo-item {
+    word-break: break-all;
+    padding: 15px ;
+    line-height: 1.2;
+    transition: color 0.4s;
+    background-image: url(data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22…2none%22%20stroke%3D%22%23ededed%22%20stroke-width%3D%223%22/%3E%3C/svg%3E);
+    background-repeat: no-repeat;
+    background-position: center left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px dotted;
+}
+.todo-item:last-child {
+    border-bottom: 0;
+}
+.todo-item img {
+    margin-right: 10px;
+}
+.todo-item--complete {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
