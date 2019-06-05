@@ -33,3 +33,22 @@
     transform: rotate(360deg);
   }
 }
+.todo-add {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo-add img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.todo-add input {
+    height: 32px;
+    padding-left: 20px;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid;
+    font-size: 15px;
+}
